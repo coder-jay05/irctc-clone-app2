@@ -953,7 +953,7 @@ const Footer = () => {
       <div className="p-2">
         <div className="flex flex-col items-center justify-center text-[13px]"> 
           <p>Copyright Â© 2024 - www.irctc.co.in. All Rights Reserved</p>
-          <p className="font-bold text-black/100">Designed and Hosted by <span className="text-[#007ad9]">CRIS</span>  </p>
+          <p className="font-bold text-black/100">Designed and Hosted by <span className="text-[#007ad9]">CoderJay</span>  </p>
           <p className="font-bold text-black/100">Compatible Browsers</p>
         </div>
       </div>

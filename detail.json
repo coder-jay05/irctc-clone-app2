@@ -2,10 +2,10 @@
   "details": [
     {
       "id": "5b5c",
-      "Name": "Prince Thakur",
-      "age": "12",
-      "contact": "1234567890",
-      "email": "thakur@gmail.com",
+      "Name": "jay",
+      "age": "25",
+      "contact": "9999999999",
+      "email": "jay@gmail.com",
       "payment": "cards",
       "birth": "Lower",
       "gender": "Male",
@@ -17,10 +17,10 @@
     },
     {
       "id": "5b5c",
-      "Name": "Prince Thakur",
-      "age": "45",
+      "Name": "JayPrakash Mahato",
+      "age": "20",
       "contact": "1234567890",
-      "email": "princethakur@gmail.com",
+      "email": "jayprakash@gmail.com",
       "payment": "cards",
       "birth": "Upper",
       "gender": "Male",
