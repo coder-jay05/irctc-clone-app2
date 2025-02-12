@@ -240,7 +240,7 @@ const [agent, setagent] = useState(false)
 
           {/* ============Loyalty ======================= */}
 
-          {/* <div className="relative exclusive ml-4">
+           <div className="relative exclusive ml-4">
             <div
               onClick={() => setloyalty((e) => !e)}
               className="flex items-center gap-1  py-[5px] px-[15px] w-full"
@@ -384,11 +384,11 @@ const [agent, setagent] = useState(false)
                 </ul>
               </div>
             </div>
-          </div> */}
+          </div> 
 
           {/* ===================irctc e-wallet====================== */}
 
-          {/* <div className="relative exclusive ml-4">
+           <div className="relative exclusive ml-4">
             <div
               onClick={() => seteWallet((e) => !e)}
               className="flex items-center gap-1  py-[5px] px-[15px] w-full"
@@ -416,44 +416,44 @@ const [agent, setagent] = useState(false)
                 </Link>
               </div>
             </div>
-          </div> */}
+          </div> 
 
           {/* =====================buses ========================= */}
 
-          {/* <div className="relative exclusive ml-4">
+           <div className="relative exclusive ml-4">
             <div className="flex items-center py-[12px] px-[15px] w-full">
               <Link className=" text-black   text-sm">BUSES</Link>
             </div>
             <div
               className={`transition-all top-[46px] w-[95%] mx-auto border  border-t-black/50 shadow `}
             ></div>
-          </div> */}
+          </div> 
 
           {/* ========================== FLIGHT ================= */}
 
-          {/* <div className="relative exclusive ml-4">
+           <div className="relative exclusive ml-4">
             <div className="flex items-center py-[12px] px-[15px] w-full">
               <Link className=" text-black   text-sm">FLIGHTS</Link>
             </div>
             <div
               className={`transition-all top-[46px] w-[95%] mx-auto border  border-t-black/50 shadow `}
             ></div>
-          </div> */}
+          </div> 
 
           {/* ===================== HOTELS ================= */}
 
-          {/* <div className="relative exclusive ml-4">
+           <div className="relative exclusive ml-4">
             <div className="flex items-center py-[12px] px-[15px] w-full">
               <Link className=" text-black   text-sm">HOTELS</Link>
             </div>
             <div
               className={`transition-all top-[46px] w-[95%] mx-auto border  border-t-black/50 shadow `}
             ></div>
-          </div> */}
+          </div> 
 
           {/* ======================== HOLIDAYS =========================== */}
 
-          {/* <div className="relative exclusive ml-4">
+           <div className="relative exclusive ml-4">
             <div
               onClick={() => setholidays((e) => !e)}
               className="flex items-center gap-1  py-[5px] px-[15px] w-full"
@@ -551,10 +551,10 @@ const [agent, setagent] = useState(false)
                 </ul>
               </div>
             </div>
-          </div> */}
+          </div> 
 
           {/* ========================= Meals =================== */}
-{/* 
+
           <div className="relative exclusive ml-4">
             <div
               onClick={() => setmeals((e) => !e)}
@@ -581,11 +581,11 @@ const [agent, setagent] = useState(false)
                 </Link>
               </div>
             </div>
-          </div> */}
+          </div> 
 
           {/* ==========================promotions======================= */}
 
-          {/* <div className="relative exclusive ml-4">
+           <div className="relative exclusive ml-4">
             <div
               onClick={() => setpromotions((e) => !e)}
               className=" flex  items-center gap-1  py-[5px] px-[15px] w-full"
@@ -778,25 +778,25 @@ const [agent, setagent] = useState(false)
                 </Link>
               </div>
             </div>
-          </div> */}
+          </div> 
 
         
 
           {/* ===================== ALERTS ======================== */}
 
-          {/* <div className="exclusive ml-4">
+           <div className="exclusive ml-4">
             <div className="flex items-center py-[12px] px-[15px] w-full">
               <Link to={"alerts"} className=" text-black   text-sm">ALERTS</Link>
             </div>
             <div
               className={`transition-all top-[46px] w-[95%] mx-auto border  border-t-black/50 shadow `}
             ></div>
-          </div> */}
+          </div> 
 
 
             {/* =============more========================== */}
 
-            {/* <div className="relative exclusive ml-4">
+             <div className="relative exclusive ml-4">
             <div
               onClick={() => setmore((e) => !e)}
               className=" flex  items-center gap-1  py-[5px] px-[15px] w-full"
@@ -883,24 +883,24 @@ const [agent, setagent] = useState(false)
                 </ul>
               </div>
             </div>
-          </div> */}
+          </div> 
 
 {/* =================           contact us ================================= */}
 
 
-{/* <div className="exclusive ml-4">
+ <div className="exclusive ml-4">
             <div className="flex items-center py-[12px] px-[15px] w-full">
               <Link to={"contact"} className=" text-black  text-sm">CONTACT US</Link>
             </div>
             <div
               className={`transition-all top-[46px] w-[95%] mx-auto border  border-t-black/50 shadow `}
             ></div>
-          </div> */}
+          </div> 
 
 {/* =========================================== AGENT LOGIN ======================================== */}
 
 
-{/* <div className="relative exclusive ml-4">
+ <div className="relative exclusive ml-4">
             <div
               onClick={() => setagent((e) => !e)}
               className="flex items-center gap-1  py-[5px] px-[15px] w-full"
@@ -928,22 +928,22 @@ const [agent, setagent] = useState(false)
                 </Link>
               </div>
             </div>
-          </div> */}
+          </div> 
 
 
 {/* ======================================= Daily deals -====================================== */}
 
-{/* <div className="exclusive ml-4">
+ <div className="exclusive ml-4">
             <div className="flex items-center py-[12px] px-[15px] w-full">
               <Link className=" text-red-500   text-sm">DAILY DEALS</Link>
             </div>
             <div
               className={`transition-all top-[46px] w-[95%] mx-auto border  border-t-black/50 shadow `}
             ></div>
-          </div> */}
+          </div> 
 
 {/* ========================================= LANGUAGE ======================================== */}
-{/* 
+
 <div className="exclusive ml-4">
             <div className="flex items-center py-[12px] px-[15px] w-full">
               <Link className=" text-black   text-sm">हिंदी</Link>
@@ -951,7 +951,7 @@ const [agent, setagent] = useState(false)
             <div
               className={`transition-all top-[46px] w-[95%] mx-auto border  border-t-black/50 shadow `}
             ></div>
-          </div> */}
+          </div> 
 
 
         </div>
