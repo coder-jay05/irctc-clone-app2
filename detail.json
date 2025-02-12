@@ -1,0 +1,49 @@
+{
+  "details": [
+    {
+      "id": "5b5c",
+      "Name": "Prince Thakur",
+      "age": "12",
+      "contact": "1234567890",
+      "email": "thakur@gmail.com",
+      "payment": "cards",
+      "birth": "Lower",
+      "gender": "Male",
+      "country": "India",
+      "Total": "₹ 4,505.00",
+      "trainname": "CSMT EXPRESS",
+      "trainnumber": "9854",
+      "button": "Sleeper"
+    },
+    {
+      "id": "5b5c",
+      "Name": "Prince Thakur",
+      "age": "45",
+      "contact": "1234567890",
+      "email": "princethakur@gmail.com",
+      "payment": "cards",
+      "birth": "Upper",
+      "gender": "Male",
+      "country": "India",
+      "Total": "₹ 4,505.00",
+      "trainname": "CSMT EXPRESS",
+      "trainnumber": "9854",
+      "button": "Sleeper"
+    },
+    {
+      "id": "1fa6",
+      "Name": "sandip",
+      "age": "30",
+      "contact": "8709652447",
+      "email": "sandip@gmail.com",
+      "payment": "upi",
+      "birth": "Upper",
+      "gender": "Male",
+      "country": "India",
+      "Total": "₹ 4,505.00",
+      "trainname": "Lokmya Tilak Express",
+      "trainnumber": "987654",
+      "button": "AC"
+    }
+  ]
+}

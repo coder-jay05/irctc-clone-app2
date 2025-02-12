@@ -1,0 +1,40 @@
+{
+  "resourceName": [
+    {
+      "id": "5b5c",
+      "trainname": "CSMT EXPRESS",
+      "trainnumber": "9854",
+      "button": "Sleeper"
+    },
+    {
+      "id": "94a0",
+      "trainname": "Rajdhani Express ",
+      "trainnumber": "21056",
+      "button": "AC"
+    },
+    {
+      "id": "94a0",
+      "trainname": "Rajdhani Express ",
+      "trainnumber": "21056",
+      "button": "Sleeper"
+    },
+    {
+      "id": "1fa6",
+      "trainname": "Lokmya Tilak Express",
+      "trainnumber": "987654",
+      "button": "AC"
+    },
+    {
+      "id": "1fa6",
+      "trainname": "Lokmya Tilak Express",
+      "trainnumber": "987654",
+      "button": "Sleeper"
+    },
+    {
+      "id": "1fa6",
+      "trainname": "Lokmya Tilak Express",
+      "trainnumber": "987654",
+      "button": "Sleeper"
+    }
+  ]
+}

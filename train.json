@@ -1,0 +1,29 @@
+{
+  "train": [
+    {
+      "id": "5b5c",
+      "trainname": "CSMT EXPRESS",
+      "trainnumber": "9854"
+    },
+    {
+      "id": "1fa6",
+      "trainname": "Lokmya Tilak Express",
+      "trainnumber": "987654"
+    },
+    {
+      "id": "94a0",
+      "trainname": "Rajdhani Express ",
+      "trainnumber": "21056"
+    },
+    {
+      "id": "f4ad",
+      "trainname": "Chennai Express",
+      "trainnumber": "89457"
+    },
+    {
+      "id": "1c9d",
+      "trainname": "jay",
+      "trainnumber": "455695"
+    }
+  ]
+}

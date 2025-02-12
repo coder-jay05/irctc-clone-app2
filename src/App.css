@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Body, Quicksand, sans-serif;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.flex-grow {
+  flex: 1;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  letter-spacing: 0.35px;
+}
+
+ul {
+  z-index: 10;
+  background-color: white !important;
+}
+
+ul li:hover {
+  background-color: #fee4d4;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 5px 35px 15px 35px;
+  width: 100%;
+  background-color: #f8f9fa;
+}
+
+.nav-left-img img {
+  padding: 15px 0 0 0;
+}
+
+.nav-right-img img {
+  padding: 15px 0 0 0;
+}
+
+.nav-middle-content {
+  display: flex;
+  /* display: none; */
+
+  flex-direction: column;
+  gap: 16px;
+}
+
+.middle-top-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.middle-lower-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* =============== blink animation to underline ======================= */
+
+.blink-underline {
+  text-decoration-color: transparent; /* Start with the underline hidden */
+  animation: blink-underline 2s infinite;
+}
+
+@keyframes blink-underline {
+  0%,
+  100% {
+    text-decoration-color: transparent; /* Hide the underline */
+  }
+  50% {
+    text-decoration-color: orangered; /* Show the underline */
+  }
+}
+
+.exclusive:hover .irctc-hover {
+  display: block;
+  background-color: white !important;
+}
+
+.trains::before {
+  content: "";
+  position: absolute;
+  border-bottom: 10px solid #fb792b;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  top: -10px;
+  left: 28px;
+  z-index: 10;
+  /* box-shadow: 0 6px 3px -1px rgba(0, 0, 0, 0.1); */
+}
+
+.trains::after {
+  content: "";
+  border-bottom: 12px solid #ccc;
+  border-right: 14px solid transparent;
+  border-left: 14px solid transparent;
+  position: absolute;
+  top: -12px;
+  left: 24px;
+  z-index: 9;
+}
+
+.train-div:hover .trains {
+  display: block;
+  background-color: white !important;
+}
+
+#irctc-trains-more-menu:hover #irctc-trains-more-menu-ul {
+  display: block;
+}
+
+#promotions {
+  left: -80px;
+}
+
+#promotions::before {
+  left: 135px;
+}
+
+#promotions::after {
+  left: 131px;
+}
+
+#more-option {
+  left: -170px;
+}
+
+#more-option::before {
+  left: 185px;
+}
+
+#more-option::after {
+  left: 181px;
+}
+
+.sidebar {
+  position: relative;
+  /* right: -1000px; */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease-in-out, opacity 0.4s ease;
+}
+
+.sidebar.active {
+  right: 0;
+}
+
+.sub-menu {
+  max-height: 0;
+  opacity: 1;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+  box-shadow: 0 6px 3px -1px rgba(0, 0, 0, 0.1);
+}
+
+.sub-menu.active {
+  max-height: fit-content; /* Adjust based on your content */
+  opacity: 1;
+}
+
+/* Add this to your Tailwind CSS file */
+/* .scrollbar-hide::-webkit-scrollbar { */
+  /* display: none; */
+   /* Hides the scrollbar in WebKit browsers */
+/* } */
+
+/* .scrollbar-hide { */
+  /* -ms-overflow-style: none;  */
+  
+  /* Hides scrollbar in IE and Edge */
+  /* scrollbar-width: none; */
+   /* Hides scrollbar in Firefox */
+/* } */
+
+#home-img{
+  background-image: url("https://www.irctc.co.in/nget/home_page_banner1.e6749c3d9698d1ac7608.jpg");
+  height: 601px;
+ background-repeat: no-repeat;
+ background-size: cover;
+ width: 100%;
+}
+
+#three-dots {
+  display: block;
+  /* display: none; */
+}
+
+
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} */
+
+/* .bookinginput::-webkit-outer-spin-button,
+.bookinginput::-webkit-inner-spin-button {
+  -webkit-appearance: auto;
+} */
+/* Firefox */
+/* input[type=number] {
+  -moz-appearance: textfield;
+} */
+
+
+
+.footer-menu {
+  cursor: pointer;
+  max-height: 0;
+  opacity: 0;
+  color: white;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+  box-shadow: 2px 6px 21px 3px rgb(246 255 253 / 10%);
+}
+
+.footer-menu.active {
+  max-height: fit-content; /* Adjust based on your content */
+  opacity: 1;
+  border-top: 1px solid black;
+  border-bottom: none !important;
+border-right: none !important;
+border-left: none;
+}
+
+.footer-submenu {
+  cursor: pointer;
+  max-height: 0;
+  opacity: 0;
+  color: white;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+padding-top: 10px;
+}
+
+.footer-submenu.active {
+  max-height: fit-content; /* Adjust based on your content */
+  opacity: 1;
+}
+
+.footer-menu a{
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 10px !important;
+
+}
+
+.footer-submenu a{
+  color: white;
+  padding: 10px ;
+  cursor: pointer;
+}
+
+.handicraft{
+  font-size: 14px  !important;
+  /* padding: 0 !important; */
+}
+
+th{
+  border: 1px solid rgb(126, 119, 119);
+  letter-spacing: 2px;
+}
+
+td{
+  padding: 10px 15px;
+  border: 1px solid rgb(130, 133, 49);
+  letter-spacing: 2px;
+}
+
+
+hr{
+  color: #000;
+  border-top-width: 3px ;
+  border-top-color: black;
+}
+
+@media screen and (max-width: 1340px) {
+  /* #three-dots {
+    display: block;
+  } */
+
+  .nav-middle-content {
+    display: none;
+  }
+}
